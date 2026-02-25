@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'WeatherSense',
+  title: 'Weather Station',
   description: 'A real-time weather monitoring dashboard.',
 };
 
