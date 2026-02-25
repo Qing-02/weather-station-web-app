@@ -1,3 +1,4 @@
+
 export function Overview() {
   return (
     <section id="overview" className="py-12 lg:py-24 bg-muted/30">
@@ -8,15 +9,15 @@ export function Overview() {
               Project Overview
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              An in-depth look at our advanced weather monitoring system.
+              A closer look at our weather monitoring system.
             </p>
           </div>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              The Weather Station project is a comprehensive solution for real-time environmental monitoring. It captures crucial data points including temperature, humidity, wind speed, wind direction, rainfall, atmospheric pressure, and altitude. 
+              The Weather Station project brings you real-time environmental monitoring. We track key weather data like temperature, humidity, wind speed, wind direction, rainfall, atmospheric pressure, and altitude.
             </p>
             <p>
-              All data is collected by a network of sensors, processed, and streamed to a cloud database. This allows for both live data visualization and the storage of historical records for trend analysis and research purposes. Our platform aims to make high-quality environmental data accessible to everyone.
+              Data from our sensors is sent to the cloud, allowing you to see live updates on the dashboard. You can also explore historical records to spot trends or for research. We built this platform to make high-quality environmental data accessible to everyone.
             </p>
           </div>
         </div>

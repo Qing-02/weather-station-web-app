@@ -33,7 +33,7 @@ export function Mission() {
             Our Mission
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-            The core objectives that drive the Weather Station project.
+            The core objectives of the Weather Station project.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
