@@ -5,6 +5,12 @@
       "description": "System architecture diagram for the weather station.",
       "imageUrl": "https://images.unsplash.com/photo-1707733260992-73ff6dbed163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhcmNoaXRlY3R1cmUlMjBkaWFncmFtfGVufDB8fHx8MTc3MTkwMjUzNnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "architecture diagram"
+    },
+    {
+      "id": "hero-background",
+      "description": "A beautiful weather background for the hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzM5NTh8MHwxfHNlYXJjaHwxfHx3ZWF0aGVyJTIwc2t5fGVufDB8fHx8MTcxODk4MzQzNnww&ixlib=rb-4.0.3&q=80&w=1920",
+      "imageHint": "weather sky"
     }
   ]
 }
