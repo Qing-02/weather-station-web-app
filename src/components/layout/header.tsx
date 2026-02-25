@@ -7,11 +7,13 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 const navLinks = [
-  { href: '#', label: 'Home' },
-  { href: '#', label: 'Overview' },
-  { href: '#', label: 'Live Data' },
-  { href: '#', label: 'Documentation' },
-  { href: '#', label: 'Contact Us' },
+  { href: '#home', label: 'Home' },
+  { href: '#overview', label: 'Overview' },
+  { href: '#mission', label: 'Mission' },
+  { href: '#problem-statement', label: 'Problem Statement' },
+  { href: '#live-data', label: 'Live Data' },
+  { href: '#documentation', label: 'Documentation' },
+  { href: '#contact', label: 'Contact Us' },
 ];
 
 export function Header() {
@@ -22,7 +24,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
           <CloudSun className="h-6 w-6 text-primary" />
-          <span>WeatherSense</span>
+          <span>Weather Station</span>
         </Link>
         
         <nav className="hidden md:flex items-center gap-6">
@@ -50,7 +52,7 @@ export function Header() {
                 <div className="flex items-center justify-between border-b pb-4">
                     <Link href="/" className="flex items-center gap-2 font-bold text-lg" onClick={() => setIsOpen(false)}>
                       <CloudSun className="h-6 w-6 text-primary" />
-                      <span>WeatherSense</span>
+                      <span>Weather Station</span>
                     </Link>
                     <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
                       <X className="h-6 w-6" />
