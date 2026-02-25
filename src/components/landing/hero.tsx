@@ -16,7 +16,7 @@ export function Hero() {
             <Link href="/live-data">
               <Button size="lg">View Live Data</Button>
             </Link>
-            <Link href="/overview">
+            <Link href="/#overview">
               <Button size="lg" variant="outline">Learn More</Button>
             </Link>
           </div>
