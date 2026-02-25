@@ -2,6 +2,7 @@
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Mission } from '@/components/landing/mission';
+import { ProblemStatement } from '@/components/landing/problem-statement';
 
 export default function MissionPage() {
   return (
@@ -9,6 +10,7 @@ export default function MissionPage() {
       <Header />
       <main className="flex-1">
         <Mission />
+        <ProblemStatement />
       </main>
       <Footer />
     </div>
