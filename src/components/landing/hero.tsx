@@ -13,10 +13,10 @@ export function Hero() {
             Harnessing the power of IoT and cloud technology to deliver precise, live weather data right to your screen.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
-            <Link href="#live-data">
+            <Link href="/live-data">
               <Button size="lg">View Live Data</Button>
             </Link>
-            <Link href="#overview">
+            <Link href="/overview">
               <Button size="lg" variant="outline">Learn More</Button>
             </Link>
           </div>

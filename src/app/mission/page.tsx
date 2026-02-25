@@ -1,17 +1,14 @@
-'use client';
 
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { Hero } from '@/components/landing/hero';
-import { Overview } from '@/components/landing/overview';
+import { Mission } from '@/components/landing/mission';
 
-export default function Home() {
+export default function MissionPage() {
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
-        <Hero />
-        <Overview />
+        <Mission />
       </main>
       <Footer />
     </div>
