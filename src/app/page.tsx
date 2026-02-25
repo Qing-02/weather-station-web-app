@@ -5,7 +5,6 @@ import { Footer } from '@/components/layout/footer';
 import { DataCards } from '@/components/dashboard/data-cards';
 import { HistoricalChart } from '@/components/dashboard/historical-chart';
 import { HistoricalTable } from '@/components/dashboard/historical-table';
-import { AIInsight } from '@/components/dashboard/ai-insight';
 import { useWeatherData } from '@/hooks/use-weather-data';
 
 import { Hero } from '@/components/landing/hero';
@@ -37,7 +36,7 @@ export default function Home() {
                   Live Data Dashboard
                 </h2>
                 <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
-                  Real-time monitoring and AI-powered analysis of environmental data.
+                  Real-time monitoring of environmental data.
                 </p>
               </header>
               
@@ -46,14 +45,6 @@ export default function Home() {
                 <DataCards data={currentData} />
               </section>
 
-              <section aria-labelledby="ai-insight-heading">
-                  <h3 id="ai-insight-heading" className="sr-only">AI Weather Insight</h3>
-                <AIInsight
-                  currentData={currentData}
-                  historicalData={historicalData}
-                />
-              </section>
-              
               <section aria-labelledby="charts-heading">
                   <h3 id="charts-heading" className="sr-only">Historical Charts</h3>
                 <HistoricalChart data={historicalData} />
