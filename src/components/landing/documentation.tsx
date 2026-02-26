@@ -17,7 +17,7 @@ export function Documentation() {
                     </div>
                     <div>
                         <h3 className="text-2xl font-bold text-foreground mb-2">Hardware Components</h3>
-                        <p>Our reference hardware includes a DHT22 (temperature/humidity), an anemometer (wind speed), a wind vane, a tipping bucket rain gauge, and a BMP280 (pressure/altitude), all connected to an ESP32 microcontroller.</p>
+                        <p>Our reference hardware includes a temperature sensor(temperature/humidity), an anemometer (wind speed), a wind vane, a tipping bucket rain gauge, and a pressure sensor (pressure/altitude), all connected to a Smart controller.</p>
                     </div>
                     <div>
                         <h3 className="text-2xl font-bold text-foreground mb-2">Database Structure</h3>
